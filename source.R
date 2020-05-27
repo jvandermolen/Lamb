@@ -1,7 +1,6 @@
 library("Rcpp")
 
 nthreads=1
-source("simulate_data_fxns.R")
 
 #### Optimizing RcpArmadillo ####
 library(OpenMPController )
